@@ -1,4 +1,4 @@
-import './WeatherInformations5Days.css'
+import './weatherInformations5Days.css'
 import PropTypes from 'prop-types';
 
 function WeatherInformations5Days({ weather5Days }) {
