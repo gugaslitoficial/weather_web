@@ -1,0 +1,96 @@
+.container {
+  max-width: 120vh;
+  padding: 5vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: black;
+}
+
+input {
+  padding: 10px;
+  border-radius: 15px 0 0 15px;
+  border: none;
+  width: 60%;
+  max-width: 250px;
+  outline: none;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #F17951;
+  border: 0;
+  padding: 10px;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+  color: black;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #c5512b;
+}
+
+/* Telas menores que 1024 */
+@media (max-width: 1024px) {
+  .container {
+    padding: 3vh;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  input {
+    width: 80%;
+    max-width: 200px;
+  }
+
+  button {
+    padding: 8px;
+  }
+}
+
+/* Telas menores que 768 */
+@media (max-width: 768px) {
+  .container {
+    padding: 2vh;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  input {
+    width: 90%;
+    max-width: 180px;
+  }
+
+  button {
+    padding: 7px;
+  }
+}
+
+/* Telas menores que 480 */
+@media (max-width: 480px) {
+  .container {
+    padding: 1vh;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  input {
+    width: 100%;
+    max-width: 150px;
+  }
+
+  button {
+    padding: 10px;
+
+  }
+}
