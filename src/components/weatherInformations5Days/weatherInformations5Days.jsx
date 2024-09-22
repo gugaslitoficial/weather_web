@@ -39,7 +39,7 @@ function WeatherInformations5Days({ weather5Days }) {
     )
 }
 
-// Adicionando a validação de props
+// Validação de props
 WeatherInformations5Days.propTypes = {
     weather5Days: PropTypes.shape({
         list: PropTypes.arrayOf(
